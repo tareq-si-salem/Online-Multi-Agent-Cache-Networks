@@ -75,7 +75,7 @@ Please cite this paper ([a preprint is available](https://arxiv.org/pdf/2208.058
       --graph_type {erdos_renyi,balanced_tree,hypercube,cicular_ladder,cycle,grid_2d,lollipop,expander,star,barabasi_albert,watts_strogatz,regular,powerlaw_tree,small_world,geant,abilene,dtelekom,servicenetwork,line}
                             Graph type
       --experiment_name EXPERIMENT_NAME
-                            Experiment Name
+                            Experiment Name (allows for offline results reuse by sub-experiements)
       --experiment_subname EXPERIMENT_SUBNAME
                             Sub-experiment Name
       --record_offline_stats_only
